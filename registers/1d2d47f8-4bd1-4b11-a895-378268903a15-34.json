@@ -34,7 +34,7 @@
     }, {
       "column_name" : "DS_TABELA",
       "data_type" : "VARCHAR2",
-      "new_value" : "\\u00DAltimo setor atendimento",
+      "new_value" : "ultimo setor atendimento",
       "old_value" : null
     }, {
       "column_name" : "DS_SHORTNAME",
@@ -430,7 +430,7 @@
     "column_values" : [ {
       "column_name" : "DS_INDICE",
       "data_type" : "VARCHAR2",
-      "new_value" : "Chave prim\\u00E1ria",
+      "new_value" : "Chave primaria",
       "old_value" : null
     }, {
       "column_name" : "IE_TIPO",
