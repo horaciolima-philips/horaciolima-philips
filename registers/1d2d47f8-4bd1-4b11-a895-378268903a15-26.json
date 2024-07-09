@@ -64,7 +64,7 @@
     }, {
       "column_name" : "DT_CRIACAO",
       "data_type" : "DATE",
-      "new_value" : "2024-07-09 16:59:47",
+      "new_value" : "09/07/2024 16:59:47",
       "old_value" : null
     }, {
       "column_name" : "IE_SITUACAO",
@@ -267,7 +267,7 @@
     }, {
       "column_name" : "DT_CRIACAO",
       "data_type" : "DATE",
-      "new_value" : "2024-07-09 17:00:28",
+      "new_value" : "09/07/2024 17:00:28",
       "old_value" : null
     }, {
       "column_name" : "IE_SITUACAO",
@@ -448,7 +448,7 @@
     }, {
       "column_name" : "DT_CRIACAO",
       "data_type" : "DATE",
-      "new_value" : "2024-07-09 17:00:28",
+      "new_value" : "09/07/2024 17:00:28",
       "old_value" : null
     }, {
       "column_name" : "IE_CRIAR_DESCRICAO",
@@ -626,7 +626,7 @@
     }, {
       "column_name" : "DT_CRIACAO",
       "data_type" : "DATE",
-      "new_value" : "2024-07-09 17:00:43",
+      "new_value" : "09/07/2024 17:00:43",
       "old_value" : null
     }, {
       "column_name" : "IE_CRIAR_DESCRICAO",
@@ -794,7 +794,7 @@
     }, {
       "column_name" : "DT_CRIACAO",
       "data_type" : "DATE",
-      "new_value" : "2024-07-09 17:00:43",
+      "new_value" : "09/07/2024 17:00:43",
       "old_value" : null
     }, {
       "column_name" : "IE_CRIAR_DESCRICAO",
@@ -962,7 +962,7 @@
     }, {
       "column_name" : "DT_CRIACAO",
       "data_type" : "DATE",
-      "new_value" : "2024-07-09 17:00:43",
+      "new_value" : "09/07/2024 17:00:43",
       "old_value" : null
     }, {
       "column_name" : "IE_CRIAR_DESCRICAO",
@@ -1130,7 +1130,7 @@
     }, {
       "column_name" : "DT_CRIACAO",
       "data_type" : "DATE",
-      "new_value" : "2024-07-09 17:00:43",
+      "new_value" : "09/07/2024 17:00:43",
       "old_value" : null
     }, {
       "column_name" : "IE_CRIAR_DESCRICAO",
