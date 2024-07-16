@@ -1,0 +1,57 @@
+{
+  "identifier" : "CMDKLTD",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/children/code:362516/children/code:362517/children/code:362518/children/code:362519/children/code:362520/children/code:362521/children/code:362522/children/code:362523/children/code:362524/children/code:362525/children/code:362526/children/code:362529/expressionDescription",
+    "value" : "Tab"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:2490/children/code:2568/children/code:2569/children/code:2570/children/code:2571/children/code:2573/children/code:84930/menuItems/code:378616/name",
+    "value" : "Submit manual event"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:1078795/children/code:1079262/children/code:1079265/children/code:1079272/children/code:1079273/children/code:1079277/children/code:1079278/children/code:1079279/children/code:1079285/children/code:1079286/children/code:1079287/children/code:1079288/children/code:1079289/children/code:1079290/children/code:1079291/children/code:1079292/children/code:1079293/children/code:1079294/children/code:1079295/children/code:1079296/children/code:1081129/menuItems/code:1028743/name",
+    "value" : "Event test"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:1078795/children/code:1079262/children/code:1079265/children/code:1079272/children/code:1079273/children/code:1079277/children/code:1079278/children/code:1079279/children/code:1079285/children/code:1079286/children/code:1079287/children/code:1079288/children/code:10000017/menuItems/code:100329635/name",
+    "value" : "View Macros"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:1078795/children/code:1079262/children/code:1079265/children/code:1079272/children/code:1079273/children/code:1079277/children/code:1079278/children/code:1079279/children/code:1079285/children/code:1079286/children/code:1079287/children/code:1079288/children/code:10000017/menuItems/code:100329635/rules",
+    "value" : [ ]
+  }, {
+    "op" : "add",
+    "path" : "/children/code:1078795/children/code:1079262/children/code:1079265/children/code:1079272/expressionDescription",
+    "value" : "Tab"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:2489/children/code:28796/children/code:28797/children/code:28799/children/code:28800/children/code:31266/children/code:1085966/menuItems/code:100329635/name",
+    "value" : "View Macros"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:2489/children/code:28796/children/code:28797/children/code:28799/children/code:28800/children/code:31266/children/code:1085966/menuItems/code:100329635/rules",
+    "value" : [ ]
+  }, {
+    "op" : "add",
+    "path" : "/children/code:2489/children/code:28796/children/code:28798/children/code:28806/children/code:28807/children/code:71727/children/code:71728/children/code:71729/children/code:1038982/children/code:1038983/expressionDescription",
+    "value" : "Tab"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:2489/children/code:28796/children/code:28798/children/code:28806/expressionDescription",
+    "value" : "Tab"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:2487/children/code:2500/children/code:2501/children/code:71663/children/code:71664/children/code:63492/children/code:63493/menuItems/code:364779/name",
+    "value" : "Change the event status"
+  }, {
+    "op" : "add",
+    "path" : "/children/code:2487/children/code:2500/children/code:2501/children/code:71663/children/code:71664/children/code:63492/children/code:63493/menuItems/code:364778/name",
+    "value" : "Inactivate event "
+  }, {
+    "op" : "add",
+    "path" : "/children/code:2487/children/code:2500/children/code:2501/children/code:71663/children/code:71664/children/code:63492/children/code:63494/customProperties/enableMultiFilters",
+    "value" : "N"
+  } ],
+  "type" : "PARTNER"
+}
