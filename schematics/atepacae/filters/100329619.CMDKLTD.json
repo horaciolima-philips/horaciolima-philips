@@ -2,12 +2,12 @@
   "identifier" : "CMDKLTD",
   "migrations" : [ {
     "op" : "add",
-    "path" : "/listaMetaAtributos/code:133750633",
+    "path" : "/listaMetaAtributos/code:134241875",
     "value" : {
       "IeTooltip" : false,
       "alinharDireita" : false,
       "canClean" : true,
-      "code" : 133750633,
+      "code" : 134241875,
       "componente" : "LISTBOX",
       "dependentFields" : [ ],
       "displayButtonToday" : false,
@@ -29,7 +29,7 @@
       "lineBreak" : false,
       "mandatory" : false,
       "multiselect" : "N",
-      "nmAtributo" : "CD_CUSTOM_DOMAIN_ONE",
+      "nmAtributo" : "CD_CUSTOM_DOMAIN",
       "readOnly" : false,
       "sensitive" : false,
       "tabStop" : true,
