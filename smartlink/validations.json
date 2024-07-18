@@ -1,0 +1,2037 @@
+[
+    {
+        "id": "e14db3ba39c7de87",
+        "type": "tab",
+        "label": "validations",
+        "disabled": false,
+        "info": "",
+        "env": [],
+        "flowCategory": {
+            "value": "",
+            "label": "---"
+        },
+        "dbPanelCode": ""
+    },
+    {
+        "id": "d248f68bef164759",
+        "type": "group",
+        "z": "e14db3ba39c7de87",
+        "name": "Synonyms",
+        "style": {
+            "label": true,
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "9bfad12288b65b6c",
+            "115acbbb460e2724",
+            "6379c764cd7e65b8",
+            "b3d653687b81ef14",
+            "04464244ef75313e",
+            "9649d308cd05d5a1",
+            "ab80845696915a8f",
+            "92727e2b52eae6c7",
+            "2bf62cfdbe9c7262",
+            "b168fee2e77a8fb2",
+            "35cfc42f6d4da2be",
+            "15903b1f0cbf60c7"
+        ],
+        "x": 234,
+        "y": 319,
+        "w": 1672,
+        "h": 162
+    },
+    {
+        "id": "7a1ee31b3ca78e38",
+        "type": "group",
+        "z": "e14db3ba39c7de87",
+        "name": "Grants",
+        "style": {
+            "label": true,
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "7c68336599174251",
+            "b248b80ce8ab6f29",
+            "dc4d55bf9185c47b",
+            "59f77c89f29d011d",
+            "fd5dee3bdd1dec2f",
+            "f565517964cf2338",
+            "2289d870f792f8a2",
+            "c5bbb72450764413",
+            "500c77a9962bd9bf",
+            "779e9ff4e1786fd0",
+            "618f467adcc318a1",
+            "ba5036fa5af8f20d"
+        ],
+        "x": 234,
+        "y": 539,
+        "w": 1672,
+        "h": 162
+    },
+    {
+        "id": "6f9e5eb760a7caa9",
+        "type": "group",
+        "z": "e14db3ba39c7de87",
+        "name": "Sync routine",
+        "style": {
+            "label": true,
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "a78ab4c581935429",
+            "3ddf2f2534e11e75",
+            "219db109447e6ec6",
+            "0007a6154087c9a6",
+            "916975fc33c2feef",
+            "2c305f0da8824d43",
+            "c37c5a47611319c9",
+            "ed5865c0e67e2eda",
+            "a31a5c27aaa7e690",
+            "cc95b960b876c3f4",
+            "127f9675b621e5d1",
+            "ce35ef0a2cddcc88"
+        ],
+        "x": 234,
+        "y": 759,
+        "w": 1672,
+        "h": 162
+    },
+    {
+        "id": "33dcd58f6372ac68",
+        "type": "group",
+        "z": "e14db3ba39c7de87",
+        "name": "Schema",
+        "style": {
+            "label": true,
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "9753ccbf2079a499",
+            "6407f1705cf1776c",
+            "64f88c87fb856241",
+            "7a993f17041dd392",
+            "29cbb66ee510c4c9",
+            "414f6fb1fcf50f2e",
+            "8462510d94f440a6",
+            "d293d02719e15b89",
+            "2c6e35eaa8b8b50f",
+            "734926d7d4073e1d",
+            "6b3ced3d2c3b96d0",
+            "ded7d5db8c483c90"
+        ],
+        "x": 234,
+        "y": 979,
+        "w": 1672,
+        "h": 162
+    },
+    {
+        "id": "dfcd1f9bd386b1aa",
+        "type": "group",
+        "z": "e14db3ba39c7de87",
+        "name": "Tasy Application",
+        "style": {
+            "label": true,
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "808c889a30932fbe",
+            "6e23c464518acb66",
+            "7c1cd7cf4eb1b709",
+            "043674b0f29d9e1b",
+            "9cbdad44b29a1416",
+            "7e16ea5c7a7e25d3",
+            "e9207134cbddc68a",
+            "8932e3e8fb4d7d5d",
+            "64a01914659532c1",
+            "9b431af169572d22",
+            "e0bab077b111c92f",
+            "1ad5843b885bf6a2"
+        ],
+        "x": 234,
+        "y": 99,
+        "w": 1672,
+        "h": 162
+    },
+    {
+        "id": "1c43f33bd43b32c3",
+        "type": "group",
+        "z": "e14db3ba39c7de87",
+        "name": "Compatible Extension Version",
+        "style": {
+            "label": true,
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "b059960547988a65",
+            "0bd2d01f6573c083",
+            "657ce18145cc383a",
+            "5b514408640920b0",
+            "6c3de8aa6b184fa5",
+            "307a1155ca002469",
+            "b7b44d82e8ac4d6d",
+            "515f0cb960d35b09",
+            "d81fd784c1debf47",
+            "aa6e6dad3ee6fc6e",
+            "8992591e96404dcf",
+            "f14cd9b006350fcc"
+        ],
+        "x": 234,
+        "y": 1179,
+        "w": 1752,
+        "h": 162
+    },
+    {
+        "id": "a90f333450a512c3",
+        "type": "group",
+        "z": "e14db3ba39c7de87",
+        "name": "Smartlink",
+        "style": {
+            "label": true,
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "41093a1139fc4bfd",
+            "80668c0c5fc46086",
+            "2ffe3656ea72b2a9",
+            "d5cf20dde4161285",
+            "1829c45bcfd8e771",
+            "291eedb24935f93a",
+            "13f4c5b602cff48c"
+        ],
+        "x": 234,
+        "y": 1379,
+        "w": 1172,
+        "h": 162
+    },
+    {
+        "id": "a2da6439f1f21570",
+        "type": "group",
+        "z": "e14db3ba39c7de87",
+        "name": "Enable developer mode for 1835",
+        "style": {
+            "label": true,
+            "fill-opacity": "0",
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "48039a681745d8f6",
+            "5a7a17c4cbeae475",
+            "6bdb218febe2bba5",
+            "f7d294415e273626",
+            "c131d66cfa073fd4",
+            "f3357d36a8059c89",
+            "bb5d3a958d8d6aff",
+            "a0e07423b8d00c0c",
+            "8af3c1b97c867e57",
+            "8c0dba3c40ad9bad",
+            "b876cc6d596e8fe3",
+            "63da2edd5cab4c31"
+        ],
+        "x": 234,
+        "y": 1599,
+        "w": 1812,
+        "h": 342
+    },
+    {
+        "id": "6379c764cd7e65b8",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "parameters": [],
+        "name": "Fetch synonyms Script",
+        "func": "const synonyms_list = msg.payload.value.synonyms_list;\nconst synonyms      = msg.payload.value.synonyms;\n\nconst sql = `\n  select  count(1) as synonyms\nfrom    SYS.all_synonyms\nwhere obter_se_valor_contido(upper(synonym_name),'${synonyms_list}') = 'S'\n and owner = 'APP_EXTENSION'  \n having count(1) >= '${synonyms}'`;\n\nmsg.topic = sql;\nmsg.event = 'SELECT'\nmsg.headers = msg.payload.headers\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 360,
+        "wires": [
+            [
+                "04464244ef75313e",
+                "92727e2b52eae6c7"
+            ]
+        ]
+    },
+    {
+        "id": "04464244ef75313e",
+        "type": "tasy data access",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "name": "",
+        "x": 1110,
+        "y": 360,
+        "wires": [
+            [
+                "9649d308cd05d5a1",
+                "ab80845696915a8f"
+            ]
+        ]
+    },
+    {
+        "id": "9649d308cd05d5a1",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "parameters": [],
+        "name": "Response Synonyms",
+        "func": "const response = {};\nif(msg.error){\n    response.status = 'ERROR';\n    response.error = msg.error.message;\n}else{\n    response.status = 'SUCCESS';\n    response.synonyms = 0;\n    if (msg.payload) {\n        if (msg.payload.select[0]) {\n            if (msg.payload.select[0].resultSet[0]) {\n                response.synonyms = msg.payload.select[0].resultSet[0].SYNONYMS;\n            }\n        }\n    }\n}\nmsg.payload = { \n    ...response, \n    headers: msg.headers\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1380,
+        "y": 360,
+        "wires": [
+            [
+                "15903b1f0cbf60c7",
+                "2bf62cfdbe9c7262"
+            ]
+        ]
+    },
+    {
+        "id": "15903b1f0cbf60c7",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "name": "Debug SQL Result",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1530,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "92727e2b52eae6c7",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "name": "Debug Built SQL",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "b3d653687b81ef14",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "name": "Debug Incoming Payload",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "ab80845696915a8f",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "name": "Debug After Data Access",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "9bfad12288b65b6c",
+        "type": "spinal-consumer",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "name": "Synonyms Check Consumer API",
+        "outOfRangeOffset": "earliest",
+        "fromOffset": "latest",
+        "topic": "spinal.cmdk.settings.SynonymsRequest",
+        "groupid": "cmdk-smartlink-validations-synonyms-request",
+        "connection": {
+            "name": "broker name",
+            "host": "localhost:9092"
+        },
+        "broker": "341",
+        "x": 390,
+        "y": 360,
+        "wires": [
+            [
+                "115acbbb460e2724"
+            ]
+        ]
+    },
+    {
+        "id": "b168fee2e77a8fb2",
+        "type": "spinal-producer",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "name": "Synonyms response",
+        "topic": "spinal.cmdk.settings.SynonymsResponse",
+        "advancedoptions": false,
+        "acknowledge": "all",
+        "partition": "",
+        "headeritems": {},
+        "key": "",
+        "responsetimeout": 30000,
+        "transactiontimeout": 60000,
+        "metadatamaxage": 300000,
+        "allowautotopiccreation": false,
+        "connection": {
+            "name": "Spinal producer local mm",
+            "host": "localhost:9092",
+            "guid": "080217AE7734B6F1E06344FDA8C0B34E"
+        },
+        "broker": "339",
+        "x": 1780,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "115acbbb460e2724",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "name": "",
+        "property": "payload.value",
+        "action": "obj",
+        "pretty": false,
+        "x": 610,
+        "y": 360,
+        "wires": [
+            [
+                "6379c764cd7e65b8",
+                "b3d653687b81ef14"
+            ]
+        ]
+    },
+    {
+        "id": "2bf62cfdbe9c7262",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1590,
+        "y": 360,
+        "wires": [
+            [
+                "35cfc42f6d4da2be",
+                "b168fee2e77a8fb2"
+            ]
+        ]
+    },
+    {
+        "id": "35cfc42f6d4da2be",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "d248f68bef164759",
+        "name": "Debug Response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1770,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "7c68336599174251",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "name": "",
+        "property": "payload.value",
+        "action": "obj",
+        "pretty": false,
+        "x": 590,
+        "y": 580,
+        "wires": [
+            [
+                "b248b80ce8ab6f29",
+                "dc4d55bf9185c47b"
+            ]
+        ]
+    },
+    {
+        "id": "b248b80ce8ab6f29",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "parameters": [],
+        "name": "Fetch grants Script",
+        "func": "const LOG_APP_EXTENSION_TABLE    = msg.payload.value.LOG_APP_EXTENSION_TABLE;\nconst LOG_APP_EXTENSION_LIST     = msg.payload.value.LOG_APP_EXTENSION_LIST;\nconst QT_LIST_LOG_APP_EXTENSION  = msg.payload.value.QT_LIST_LOG_APP_EXTENSION;\n\nconst GENERATE_LOG_APP_EXT_TABLE    = msg.payload.value.GENERATE_LOG_APP_EXT_TABLE;\nconst GENERATE_LOG_APP_EXT_LIST   = msg.payload.value.GENERATE_LOG_APP_EXT_LIST;\nconst QT_LIST_GENERATE_LOG_APP_EXT  = msg.payload.value.QT_LIST_GENERATE_LOG_APP_EXT;\n\nconst CMDK_SYNC_QUEUE_TABLE    = msg.payload.value.CMDK_SYNC_QUEUE_TABLE;\nconst CMDK_SYNC_QUEUE_LIST   = msg.payload.value.CMDK_SYNC_QUEUE_LIST;\nconst QT_LIST_CMDK_SYNC_QUEUE  = msg.payload.value.QT_LIST_CMDK_SYNC_QUEUE;\n\nconst TABLE_PRIVILEGES    = msg.payload.value.TABLE_PRIVILEGES;\nconst QT_LIST_TABLE_PRIVILEGES  = msg.payload.value.QT_LIST_TABLE_PRIVILEGES;\n\nconst sql = `\n\tselect (\n\t    select  nvl(max('S'), 'N')\n\t    from    DBA_TAB_PRIVS\n\t    where   table_name = '${LOG_APP_EXTENSION_TABLE}'\n\t    and     obter_se_valor_contido(privilege, '${LOG_APP_EXTENSION_LIST}') = 'S'\n\t    and     grantee = 'APP_EXTENSION'\n\t    having count(1) >= '${QT_LIST_LOG_APP_EXTENSION}') as COUNT_LOG_APP_EXTENSION,\n\t    (   select  nvl(max('S'), 'N')\n    \t    from    DBA_TAB_PRIVS\n    \t    where   table_name = '${GENERATE_LOG_APP_EXT_TABLE}'\n    \t    and     obter_se_valor_contido(privilege,'${GENERATE_LOG_APP_EXT_LIST}') = 'S'\n    \t    and     grantee = 'APP_EXTENSION'\n\t    having count(1) >= '${QT_LIST_GENERATE_LOG_APP_EXT}') as COUNT_GENERATE_LOG_APP_EXT,\n\t    (   select  nvl(max('S'), 'N')\n            from    DBA_TAB_PRIVS \n            where   table_name = '${CMDK_SYNC_QUEUE_TABLE}'\n            and     obter_se_valor_contido(privilege,'${CMDK_SYNC_QUEUE_LIST}') = 'S' \n            and     grantee = 'APP_EXTENSION'\n\t    having count(1) >= '${QT_LIST_CMDK_SYNC_QUEUE}') as COUNT_CMDK_SYNC_QUEUE,\n\t    (   select  nvl(max('S'), 'N')\n\t        from    table_privileges \n            where   obter_se_valor_contido(table_name, '${TABLE_PRIVILEGES}') = 'S'\n            and     grantee = get_main_schema \n            and     owner = 'APP_EXTENSION'\n\t    having count(1) >= '${QT_LIST_TABLE_PRIVILEGES}') as COUNT_TABLE_PRIV from dual\n`;\n\nmsg.topic = sql;\nmsg.event = 'SELECT'\nmsg.headers = msg.payload.headers\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 580,
+        "wires": [
+            [
+                "59f77c89f29d011d",
+                "2289d870f792f8a2"
+            ]
+        ]
+    },
+    {
+        "id": "dc4d55bf9185c47b",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "name": "Debug Incoming Payload",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "59f77c89f29d011d",
+        "type": "tasy data access",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "name": "",
+        "x": 1110,
+        "y": 580,
+        "wires": [
+            [
+                "fd5dee3bdd1dec2f",
+                "f565517964cf2338"
+            ]
+        ]
+    },
+    {
+        "id": "fd5dee3bdd1dec2f",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "parameters": [],
+        "name": "Response Grants",
+        "func": "const response = {};\n\nresponse.status = msg.error ? 'ERROR' : 'SUCCESS';\nresponse.error = msg.error? msg.error.message : '';\n\nresponse.grants = msg.payload.select[0].resultSet[0];\n\nresponse.grants = response.grants.COUNT_LOG_APP_EXTENSION == 'S' &&\n                        response.grants.COUNT_GENERATE_LOG_APP_EXT == 'S' &&\n                            response.grants.COUNT_CMDK_SYNC_QUEUE == 'S' &&\n                                response.grants.COUNT_TABLE_PRIV == 'S' ? 'S' : 'N';\n\nmsg.payload = {\n  ...response,\n  headers: msg.headers\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 580,
+        "wires": [
+            [
+                "618f467adcc318a1",
+                "c5bbb72450764413"
+            ]
+        ]
+    },
+    {
+        "id": "f565517964cf2338",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "name": "Debug After Data Access",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "2289d870f792f8a2",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "name": "Debug Built SQL",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "c5bbb72450764413",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1590,
+        "y": 580,
+        "wires": [
+            [
+                "779e9ff4e1786fd0",
+                "500c77a9962bd9bf"
+            ]
+        ]
+    },
+    {
+        "id": "500c77a9962bd9bf",
+        "type": "spinal-producer",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "name": "Grants response",
+        "topic": "spinal.cmdk.settings.GrantsResponse",
+        "advancedoptions": false,
+        "acknowledge": "all",
+        "partition": "",
+        "headeritems": {},
+        "key": "",
+        "responsetimeout": 30000,
+        "transactiontimeout": 60000,
+        "metadatamaxage": 300000,
+        "allowautotopiccreation": false,
+        "connection": {
+            "name": "Spinal producer local mm",
+            "host": "localhost:9092",
+            "guid": "080217AE7734B6F1E06344FDA8C0B34E"
+        },
+        "broker": "339",
+        "x": 1770,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "779e9ff4e1786fd0",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "name": "Debug Response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1770,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "618f467adcc318a1",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "name": "Debug SQL Result",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1530,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "a78ab4c581935429",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "name": "",
+        "property": "payload.value",
+        "action": "obj",
+        "pretty": false,
+        "x": 610,
+        "y": 800,
+        "wires": [
+            [
+                "3ddf2f2534e11e75",
+                "219db109447e6ec6"
+            ]
+        ]
+    },
+    {
+        "id": "3ddf2f2534e11e75",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "parameters": [],
+        "name": "Fetch sync routine Script",
+        "func": "const sql = `\n    select  nvl(max('E'), 'S') as syncRoutine\n    from cmdk_sync_queue\n    where schema_name = 'APP_EXTENSION'\n    and \tstatus = 'E'\n`;\n\nmsg.topic = sql;\nmsg.event = 'SELECT'\nmsg.headers = msg.payload.headers\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 800,
+        "wires": [
+            [
+                "0007a6154087c9a6",
+                "c37c5a47611319c9"
+            ]
+        ]
+    },
+    {
+        "id": "219db109447e6ec6",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "name": "Debug Incoming Payload",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "0007a6154087c9a6",
+        "type": "tasy data access",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "name": "",
+        "x": 1090,
+        "y": 800,
+        "wires": [
+            [
+                "916975fc33c2feef",
+                "2c305f0da8824d43"
+            ]
+        ]
+    },
+    {
+        "id": "916975fc33c2feef",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "parameters": [],
+        "name": "Response Sync Routine",
+        "func": "const response = {};\nif(msg.error){\n    response.status = 'ERROR';\n    response.error = msg.error.message;\n}else{\n    if (msg.payload.select[0]) {\n        response.syncRoutine = msg.payload.select[0].resultSet[0].SYNCROUTINE;\n    } else {\n        response.syncRoutine = 'E';\n    }\n}\nmsg.payload = { \n    ...response, \n    headers: msg.headers\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 800,
+        "wires": [
+            [
+                "127f9675b621e5d1",
+                "ed5865c0e67e2eda"
+            ]
+        ]
+    },
+    {
+        "id": "2c305f0da8824d43",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "name": "Debug After Data Access",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "c37c5a47611319c9",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "name": "Debug Built SQL",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "ed5865c0e67e2eda",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1570,
+        "y": 800,
+        "wires": [
+            [
+                "cc95b960b876c3f4",
+                "a31a5c27aaa7e690"
+            ]
+        ]
+    },
+    {
+        "id": "a31a5c27aaa7e690",
+        "type": "spinal-producer",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "name": "Sync Routine response",
+        "topic": "spinal.cmdk.settings.SyncRoutineResponse",
+        "advancedoptions": false,
+        "acknowledge": "all",
+        "partition": "",
+        "headeritems": {},
+        "key": "",
+        "responsetimeout": 30000,
+        "transactiontimeout": 60000,
+        "metadatamaxage": 300000,
+        "allowautotopiccreation": false,
+        "connection": {
+            "name": "Spinal producer local mm",
+            "host": "localhost:9092",
+            "guid": "080217AE7734B6F1E06344FDA8C0B34E"
+        },
+        "broker": "339",
+        "x": 1770,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "cc95b960b876c3f4",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "name": "Debug Response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1770,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "127f9675b621e5d1",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "name": "Debug SQL Result",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1530,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "ce35ef0a2cddcc88",
+        "type": "spinal-consumer",
+        "z": "e14db3ba39c7de87",
+        "g": "6f9e5eb760a7caa9",
+        "name": "Sync Routine Check Consumer API",
+        "outOfRangeOffset": "earliest",
+        "fromOffset": "latest",
+        "topic": "spinal.cmdk.settings.SyncRoutineRequest",
+        "groupid": "cmdk-smartlink-validations-sync-routine-request",
+        "connection": {
+            "name": "broker name",
+            "host": "localhost:9092"
+        },
+        "broker": "341",
+        "x": 400,
+        "y": 800,
+        "wires": [
+            [
+                "a78ab4c581935429"
+            ]
+        ]
+    },
+    {
+        "id": "ba5036fa5af8f20d",
+        "type": "spinal-consumer",
+        "z": "e14db3ba39c7de87",
+        "g": "7a1ee31b3ca78e38",
+        "name": "Grants Check Consumer API",
+        "outOfRangeOffset": "earliest",
+        "fromOffset": "latest",
+        "topic": "spinal.cmdk.settings.GrantsRequest",
+        "groupid": "cmdk-smartlink-validations-grants-request",
+        "connection": {
+            "name": "broker name",
+            "host": "localhost:9092"
+        },
+        "broker": "341",
+        "x": 380,
+        "y": 580,
+        "wires": [
+            [
+                "7c68336599174251"
+            ]
+        ]
+    },
+    {
+        "id": "9753ccbf2079a499",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "name": "",
+        "property": "payload.value",
+        "action": "obj",
+        "pretty": false,
+        "x": 590,
+        "y": 1020,
+        "wires": [
+            [
+                "6407f1705cf1776c",
+                "64f88c87fb856241"
+            ]
+        ]
+    },
+    {
+        "id": "6407f1705cf1776c",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "parameters": [],
+        "name": "Fetch schema Script",
+        "func": "const schema    = msg.payload.value.schema;\n\nconst sql = `\nselect count(*) as SCHEMA \nfrom dba_users where username = '${schema}'\n`;\n\nmsg.topic = sql;\nmsg.event = 'SELECT'\nmsg.headers = msg.payload.headers\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 1020,
+        "wires": [
+            [
+                "7a993f17041dd392",
+                "8462510d94f440a6"
+            ]
+        ]
+    },
+    {
+        "id": "64f88c87fb856241",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "name": "Debug Incoming Payload",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "7a993f17041dd392",
+        "type": "tasy data access",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "name": "",
+        "x": 1110,
+        "y": 1020,
+        "wires": [
+            [
+                "29cbb66ee510c4c9",
+                "414f6fb1fcf50f2e"
+            ]
+        ]
+    },
+    {
+        "id": "29cbb66ee510c4c9",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "parameters": [],
+        "name": "Response Schema",
+        "func": "const response = {};\nif(msg.error){\n    response.status = 'ERROR';\n    response.error = msg.error.message;\n}else{\n    response.status = 'SUCCESS';\n    response.schema = 0;\n    if (msg.payload) {\n        if (msg.payload.select[0]) {\n            if (msg.payload.select[0].resultSet[0]) {\n                response.schema = msg.payload.select[0].resultSet[0].SCHEMA;\n            }\n        }\n    }\n}\nmsg.payload = { \n    ...response, \n    headers: msg.headers \n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 1020,
+        "wires": [
+            [
+                "6b3ced3d2c3b96d0",
+                "d293d02719e15b89"
+            ]
+        ]
+    },
+    {
+        "id": "414f6fb1fcf50f2e",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "name": "Debug After Data Access",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "8462510d94f440a6",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "name": "Debug Built SQL",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "d293d02719e15b89",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1590,
+        "y": 1020,
+        "wires": [
+            [
+                "734926d7d4073e1d",
+                "2c6e35eaa8b8b50f"
+            ]
+        ]
+    },
+    {
+        "id": "2c6e35eaa8b8b50f",
+        "type": "spinal-producer",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "name": "Schema response",
+        "topic": "spinal.cmdk.settings.SchemaCheckResponse",
+        "advancedoptions": false,
+        "acknowledge": "all",
+        "partition": "",
+        "headeritems": {},
+        "key": "",
+        "responsetimeout": 30000,
+        "transactiontimeout": 60000,
+        "metadatamaxage": 300000,
+        "allowautotopiccreation": false,
+        "connection": {
+            "name": "Spinal producer local mm",
+            "host": "localhost:9092",
+            "guid": "080217AE7734B6F1E06344FDA8C0B34E"
+        },
+        "broker": "339",
+        "x": 1770,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "734926d7d4073e1d",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "name": "Debug Response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1770,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "6b3ced3d2c3b96d0",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "name": "Debug SQL Result",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1530,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "ded7d5db8c483c90",
+        "type": "spinal-consumer",
+        "z": "e14db3ba39c7de87",
+        "g": "33dcd58f6372ac68",
+        "name": "Schema Check Consumer API",
+        "outOfRangeOffset": "earliest",
+        "fromOffset": "latest",
+        "topic": "spinal.cmdk.settings.SchemaCheckRequest",
+        "groupid": "cmdk-smartlink-validations-schema-request",
+        "connection": {
+            "name": "broker name",
+            "host": "localhost:9092"
+        },
+        "broker": "341",
+        "x": 380,
+        "y": 1020,
+        "wires": [
+            [
+                "9753ccbf2079a499"
+            ]
+        ]
+    },
+    {
+        "id": "808c889a30932fbe",
+        "type": "spinal-consumer",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "name": "Tasy Application Check Consumer API",
+        "outOfRangeOffset": "earliest",
+        "fromOffset": "latest",
+        "topic": "spinal.cmdk.settings.TasyApplicationRequest",
+        "groupid": "cmdk-smartlink-validations-tasy-application-request",
+        "connection": {
+            "name": "broker name",
+            "host": "localhost:9092"
+        },
+        "broker": "341",
+        "x": 410,
+        "y": 140,
+        "wires": [
+            [
+                "6e23c464518acb66"
+            ]
+        ]
+    },
+    {
+        "id": "6e23c464518acb66",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "name": "",
+        "property": "payload.value",
+        "action": "obj",
+        "pretty": false,
+        "x": 630,
+        "y": 140,
+        "wires": [
+            [
+                "7c1cd7cf4eb1b709",
+                "043674b0f29d9e1b"
+            ]
+        ]
+    },
+    {
+        "id": "7c1cd7cf4eb1b709",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "parameters": [],
+        "name": "Fetch application Script",
+        "func": "const sql = `\n  select  ie_banco as tasyApplication\nfrom    aplicacao_tasy\nwhere lower(cd_aplicacao_tasy) like 'tasy'\nand upper(ie_status_aplicacao) = 'A'`;\n\nmsg.topic = sql;\nmsg.event = 'SELECT'\nmsg.headers = msg.payload.headers\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 140,
+        "wires": [
+            [
+                "9cbdad44b29a1416",
+                "8932e3e8fb4d7d5d"
+            ]
+        ]
+    },
+    {
+        "id": "043674b0f29d9e1b",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "name": "Debug Incoming Payload",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "9cbdad44b29a1416",
+        "type": "tasy data access",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "name": "",
+        "x": 1090,
+        "y": 140,
+        "wires": [
+            [
+                "7e16ea5c7a7e25d3",
+                "e9207134cbddc68a"
+            ]
+        ]
+    },
+    {
+        "id": "7e16ea5c7a7e25d3",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "parameters": [],
+        "name": "Response Application",
+        "func": "const response = {};\nif(msg.error){\n    response.status = 'ERROR';\n    response.error = msg.error.message;\n}else{\n    response.status = 'SUCCESS';\n    if (msg.payload) {\n        if (msg.payload.select[0]) {\n            if (msg.payload.select[0].resultSet[0]) {\n                response.tasyApplication = msg.payload.select[0].resultSet[0].TASYAPPLICATION;\n            }\n        }\n    }\n}\nmsg.payload = { \n    ...response, \n    headers: msg.headers\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1340,
+        "y": 140,
+        "wires": [
+            [
+                "1ad5843b885bf6a2",
+                "64a01914659532c1"
+            ]
+        ]
+    },
+    {
+        "id": "e9207134cbddc68a",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "name": "Debug After Data Access",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1270,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "8932e3e8fb4d7d5d",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "name": "Debug Built SQL",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "64a01914659532c1",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1550,
+        "y": 140,
+        "wires": [
+            [
+                "e0bab077b111c92f",
+                "9b431af169572d22"
+            ]
+        ]
+    },
+    {
+        "id": "9b431af169572d22",
+        "type": "spinal-producer",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "name": "Tasy Application response",
+        "topic": "spinal.cmdk.settings.TasyApplicationResponse",
+        "advancedoptions": false,
+        "acknowledge": "all",
+        "partition": "",
+        "headeritems": {},
+        "key": "",
+        "responsetimeout": 30000,
+        "transactiontimeout": 60000,
+        "metadatamaxage": 300000,
+        "allowautotopiccreation": false,
+        "connection": {
+            "name": "Spinal producer local mm",
+            "host": "localhost:9092",
+            "guid": "080217AE7734B6F1E06344FDA8C0B34E"
+        },
+        "broker": "339",
+        "x": 1770,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e0bab077b111c92f",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "name": "Debug Response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1770,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1ad5843b885bf6a2",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "dfcd1f9bd386b1aa",
+        "name": "Debug SQL Result",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1530,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b059960547988a65",
+        "type": "spinal-consumer",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "name": "Compatible Extension Version API",
+        "outOfRangeOffset": "earliest",
+        "fromOffset": "latest",
+        "topic": "spinal.cmdk.settings.CompatibleExtensionVersionRequest",
+        "groupid": "cmdk-smartlink-validations-compatible-extension-request",
+        "connection": {
+            "name": "broker name",
+            "host": "localhost:9092"
+        },
+        "broker": "341",
+        "x": 400,
+        "y": 1220,
+        "wires": [
+            [
+                "0bd2d01f6573c083"
+            ]
+        ]
+    },
+    {
+        "id": "0bd2d01f6573c083",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "name": "",
+        "property": "payload.value",
+        "action": "obj",
+        "pretty": false,
+        "x": 630,
+        "y": 1220,
+        "wires": [
+            [
+                "657ce18145cc383a",
+                "5b514408640920b0"
+            ]
+        ]
+    },
+    {
+        "id": "657ce18145cc383a",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "parameters": [],
+        "name": "Fetch Compatible Script",
+        "func": "const EXTENSION            = msg.payload.value.EXTENSION;\nconst EXTENSION_VERSION     = msg.payload.value.EXTENSION_VERSION;\n\nconst sql = `select  nvl((decode(json_value(file_content, '$.extensionName'),'${EXTENSION}','S')),'N') as installedExtensionCompatible, \nnvl((decode(json_value(file_content, '$.extensionName'),'${EXTENSION}',decode(json_value(file_content, '$.version'),'${EXTENSION_VERSION}','S'))),'N') as\ninstalledExtensionVersionCompatible,\nJSON_VALUE(file_content, '$.guidExtension')         as installedGuidExtension,\nJSON_VALUE(file_content,\n'$.guidExtensionVersion')  as installedGuidExtensionVersion,\nJSON_VALUE(file_content, '$.extensionName')         as installedExtensionName,\nJSON_VALUE(file_content, '$.version')               as installedExtensionVersion\nfrom app_extension.swcf_upgrade_files\nwhere file_name = 'info.json'\nand\nversion = '${EXTENSION}' || '${EXTENSION_VERSION}'\n`;\n\nmsg.topic = sql;\nmsg.event = 'SELECT'\nmsg.headers = msg.payload.headers\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 1220,
+        "wires": [
+            [
+                "6c3de8aa6b184fa5",
+                "307a1155ca002469"
+            ]
+        ]
+    },
+    {
+        "id": "6c3de8aa6b184fa5",
+        "type": "tasy data access",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "name": "",
+        "x": 1090,
+        "y": 1220,
+        "wires": [
+            [
+                "b7b44d82e8ac4d6d",
+                "515f0cb960d35b09"
+            ]
+        ]
+    },
+    {
+        "id": "b7b44d82e8ac4d6d",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "parameters": [],
+        "name": "Response Compatible Extension",
+        "func": "const response = {};\nif(msg.error){\n    response.status = 'ERROR';\n    response.error = msg.error.message;\n}else{\n    response.status = 'SUCCESS';\n    response.installedExtensionCompatible           = 'N';\n    response.installedExtensionVersionCompatible    = 'N';\n    response.installedGuidExtension                 = '';\n    response.installedGuidExtensionVersion          = '';\n    response.installedExtensionName                 = '';\n    response.installedExtensionVersion              = '';\n    if (msg.payload) {\n        if (msg.payload.select[0]) {\n            if (msg.payload.select[0].resultSet[0]) {\n                response.installedExtensionCompatible           = msg.payload.select[0].resultSet[0].INSTALLEDEXTENSIONCOMPATIBLE;\n                response.installedExtensionVersionCompatible    = msg.payload.select[0].resultSet[0].INSTALLEDEXTENSIONVERSIONCOMPATIBLE;\n                response.installedGuidExtension                 = msg.payload.select[0].resultSet[0].INSTALLEDGUIDEXTENSION;\n                response.installedGuidExtensionVersion          = msg.payload.select[0].resultSet[0].INSTALLEDGUIDEXTENSIONVERSION;\n                response.installedExtensionName                 = msg.payload.select[0].resultSet[0].INSTALLEDEXTENSIONNAME;\n                response.installedExtensionVersion              = msg.payload.select[0].resultSet[0].INSTALLEDEXTENSIONVERSION;\n            }\n        }\n    }\n    \n}\nmsg.payload = { \n    ...response, \n    headers: msg.headers \n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 1220,
+        "wires": [
+            [
+                "d81fd784c1debf47",
+                "aa6e6dad3ee6fc6e"
+            ]
+        ]
+    },
+    {
+        "id": "d81fd784c1debf47",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1590,
+        "y": 1220,
+        "wires": [
+            [
+                "8992591e96404dcf",
+                "f14cd9b006350fcc"
+            ]
+        ]
+    },
+    {
+        "id": "8992591e96404dcf",
+        "type": "spinal-producer",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "name": "Compatible Extension response",
+        "topic": "spinal.cmdk.settings.CompatibleExtensionVersionResponse",
+        "advancedoptions": false,
+        "acknowledge": "all",
+        "partition": "",
+        "headeritems": {},
+        "key": "",
+        "responsetimeout": 30000,
+        "transactiontimeout": 60000,
+        "metadatamaxage": 300000,
+        "allowautotopiccreation": false,
+        "connection": {
+            "name": "Spinal producer local mm",
+            "host": "localhost:9092",
+            "guid": "080217AE7734B6F1E06344FDA8C0B34E"
+        },
+        "broker": "339",
+        "x": 1830,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "5b514408640920b0",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "name": "Debug Incoming Payload",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "307a1155ca002469",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "name": "Debug Built SQL",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "515f0cb960d35b09",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "name": "Debug After Data Access",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "aa6e6dad3ee6fc6e",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "name": "Debug SQL Result",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1600,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "f14cd9b006350fcc",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "1c43f33bd43b32c3",
+        "name": "Debug Response",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1830,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "41093a1139fc4bfd",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "a90f333450a512c3",
+        "name": "",
+        "property": "payload.value",
+        "action": "obj",
+        "pretty": false,
+        "x": 630,
+        "y": 1420,
+        "wires": [
+            [
+                "80668c0c5fc46086",
+                "2ffe3656ea72b2a9"
+            ]
+        ]
+    },
+    {
+        "id": "80668c0c5fc46086",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "a90f333450a512c3",
+        "name": "Debug Incoming Payload",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "2ffe3656ea72b2a9",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "a90f333450a512c3",
+        "parameters": [],
+        "name": "Response Smartlink",
+        "func": "msg.headers = msg.payload.headers\n\nconst response = {};\nresponse.status = 'SUCCESS';\nresponse.smartlink = 'OK';\n\nmsg.payload = { \n    ...response, \n    headers: msg.headers \n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 1420,
+        "wires": [
+            [
+                "d5cf20dde4161285"
+            ]
+        ]
+    },
+    {
+        "id": "d5cf20dde4161285",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "a90f333450a512c3",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1030,
+        "y": 1420,
+        "wires": [
+            [
+                "291eedb24935f93a",
+                "1829c45bcfd8e771"
+            ]
+        ]
+    },
+    {
+        "id": "1829c45bcfd8e771",
+        "type": "spinal-producer",
+        "z": "e14db3ba39c7de87",
+        "g": "a90f333450a512c3",
+        "name": "Smartlink response",
+        "topic": "spinal.cmdk.settings.SmartlinkResponse",
+        "advancedoptions": false,
+        "acknowledge": "all",
+        "partition": "",
+        "headeritems": {},
+        "key": "",
+        "responsetimeout": 30000,
+        "transactiontimeout": 60000,
+        "metadatamaxage": 300000,
+        "allowautotopiccreation": false,
+        "connection": {
+            "name": "broker name",
+            "host": "localhost:9092"
+        },
+        "broker": "339",
+        "x": 1270,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "291eedb24935f93a",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "a90f333450a512c3",
+        "name": "Debug Response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1270,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "13f4c5b602cff48c",
+        "type": "spinal-consumer",
+        "z": "e14db3ba39c7de87",
+        "g": "a90f333450a512c3",
+        "name": "Smartlink Check Consumer API",
+        "outOfRangeOffset": "earliest",
+        "fromOffset": "latest",
+        "topic": "spinal.cmdk.settings.SmartlinkRequest",
+        "groupid": "cmdk-smartlink-validations-smartlink-request",
+        "connection": {
+            "name": "broker name",
+            "host": "localhost:9092"
+        },
+        "broker": "341",
+        "x": 390,
+        "y": 1420,
+        "wires": [
+            [
+                "41093a1139fc4bfd"
+            ]
+        ]
+    },
+    {
+        "id": "48039a681745d8f6",
+        "type": "spinal-producer",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "name": "Enable developer mode response",
+        "topic": "spinal.cmdk.settings.EnableDeveloperModeReply",
+        "advancedoptions": false,
+        "acknowledge": "all",
+        "partition": "",
+        "headeritems": {},
+        "key": "",
+        "responsetimeout": 30000,
+        "transactiontimeout": 60000,
+        "metadatamaxage": 300000,
+        "allowautotopiccreation": false,
+        "connection": {
+            "name": "Default broker",
+            "host": "kafka:29092"
+        },
+        "broker": "0",
+        "x": 1880,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "5a7a17c4cbeae475",
+        "type": "spinal-consumer",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "name": "Enable developer mode - Tasy 1835",
+        "outOfRangeOffset": "earliest",
+        "fromOffset": "latest",
+        "topic": "spinal.cmdk.settings.EnableDeveloperModeRequest",
+        "groupid": "cmdk-smartlink-validations-developer-mode-request",
+        "connection": {
+            "name": "Default broker",
+            "host": "kafka:29092"
+        },
+        "broker": "0",
+        "x": 400,
+        "y": 1720,
+        "wires": [
+            [
+                "6bdb218febe2bba5"
+            ]
+        ]
+    },
+    {
+        "id": "6bdb218febe2bba5",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "name": "",
+        "property": "payload.value",
+        "action": "obj",
+        "pretty": false,
+        "x": 630,
+        "y": 1720,
+        "wires": [
+            [
+                "bb5d3a958d8d6aff"
+            ]
+        ]
+    },
+    {
+        "id": "f7d294415e273626",
+        "type": "tasy data access",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "name": "",
+        "x": 870,
+        "y": 1820,
+        "wires": [
+            [
+                "a0e07423b8d00c0c",
+                "8af3c1b97c867e57"
+            ]
+        ]
+    },
+    {
+        "id": "c131d66cfa073fd4",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "parameters": [],
+        "name": "Response enable developer mode",
+        "func": "const response = {};\nlet status;\n\nif (msg.payload.data && msg.payload.data[0].status === 'success') {\n    status = true;\n} else if (msg.payload.select && msg.payload.select[0].status === 'success') {\n    status = true\n} else {\n    status = false\n}\n\nif (msg.event === 'UPDATE' && status) {\n    response.message = 'label.smartlink.developer-mode-already-enabled';\n} else if (msg.event === 'COMPILE' && status) {\n    response.message = 'label.smartlink.success-enabled-developer-mode';\n} else if (msg.event === 'SELECT'&& status) {\n    response.message = 'label.smartlink.invalid-version-to-enable-developer-mode';\n} else {\n    response.error = 'label.smartlink.failed-to-enable-developer-mode';\n}\n\nresponse.status = status && 'SUCCESS' || 'ERROR'\n\n\nmsg.payload = { \n    ...response, \n    headers: msg.headers \n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1460,
+        "y": 1740,
+        "wires": [
+            [
+                "f3357d36a8059c89",
+                "63da2edd5cab4c31"
+            ]
+        ]
+    },
+    {
+        "id": "f3357d36a8059c89",
+        "type": "json",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1670,
+        "y": 1740,
+        "wires": [
+            [
+                "48039a681745d8f6"
+            ]
+        ]
+    },
+    {
+        "id": "bb5d3a958d8d6aff",
+        "type": "function",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "parameters": [],
+        "name": "Enable developer mode function",
+        "func": "const payload = msg.payload;\n\nfunction enableIt() {\n    if (payload.select[0].status !== 'success') {\n        return null;\n    }\n    \n    const isDevelopModeEnabled = payload.select[0].resultSet[0].STATUS || 'Y';\n    \n    if (isDevelopModeEnabled === 'Y') {\n        return null;\n    }\n    \n    const update = `UPDATE OBJETO_SISTEMA SET DS_SCRIPT_CRIACAO = 'create or replace function GET_ENABLED_DEV_MODE return varchar2 is ' ||  chr(10) ||\n        'ds_retorno_w\tvarchar2(1) := ''Y''; ' ||  chr(10) ||\n        'begin' ||  chr(10) ||\n        'return ds_retorno_w;' ||  chr(10) ||\n        'end GET_ENABLED_DEV_MODE;/'\n        WHERE NM_OBJETO = 'GET_ENABLED_DEV_MODE'`\n    return update;\n}\n\nfunction getDeveloperModeStatus() {\n    if (payload.select[0].status !== 'success') {\n        return null;\n    }\n    \n    const tasyVersion = payload.select[0].resultSet[0].VERSION;\n    if (tasyVersion === '5.01.1835') {\n        return `SELECT GET_ENABLED_DEV_MODE() as status FROM dual`\n    }\n    \n    return null;\n}\n\nfunction compile() {\n    return `CALL TASY_CRIAR_OBJETO_SISTEMA('GET_ENABLED_DEV_MODE', 'WHEB')`\n}\n\nfunction getTasyVersion() {\n    return `select  cd_versao as VERSION\n            from (\n                select  cd_versao\n                from    aplicacao_tasy_versao\n                where   ie_versao_oficial = 'S'\n                order by dt_atualizacao desc\n            )\n            where rownum = 1\n    `;\n}\n\nconst lastEvent = msg.event;\nlet query = ''\nlet event = ''\n\nswitch (lastEvent) {\n    case 'VERSION':\n        query = getDeveloperModeStatus();\n        event = 'SELECT';\n        break;\n    case 'SELECT':\n        query = enableIt();\n        event = 'UPDATE';\n        break;\n    case 'UPDATE':\n        query = compile();\n        event = 'COMPILE';\n        break;\n    default:\n        query = getTasyVersion();\n        event = 'VERSION';\n        break;\n    \n}\n\nmsg.topic = query;\nmsg.event = event;\nmsg.isObjectFlow = true;\n\nif (msg.payload.headers) {\n    msg.headers = msg.payload.headers\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 1720,
+        "wires": [
+            [
+                "8c0dba3c40ad9bad",
+                "b876cc6d596e8fe3"
+            ]
+        ]
+    },
+    {
+        "id": "a0e07423b8d00c0c",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "name": "Debug query",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "8af3c1b97c867e57",
+        "type": "switch",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "name": "Check last query",
+        "property": "event",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "COMPILE",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1110,
+        "y": 1820,
+        "wires": [
+            [
+                "c131d66cfa073fd4"
+            ],
+            [
+                "bb5d3a958d8d6aff"
+            ]
+        ]
+    },
+    {
+        "id": "8c0dba3c40ad9bad",
+        "type": "switch",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "name": "Has Query",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1150,
+        "y": 1720,
+        "wires": [
+            [
+                "f7d294415e273626"
+            ],
+            [
+                "c131d66cfa073fd4"
+            ]
+        ]
+    },
+    {
+        "id": "b876cc6d596e8fe3",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "name": "Debug function",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "63da2edd5cab4c31",
+        "type": "debug",
+        "z": "e14db3ba39c7de87",
+        "g": "a2da6439f1f21570",
+        "name": "Debug response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1720,
+        "y": 1820,
+        "wires": []
+    }
+]
