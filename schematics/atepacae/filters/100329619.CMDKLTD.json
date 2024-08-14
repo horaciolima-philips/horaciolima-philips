@@ -1,0 +1,43 @@
+{
+  "identifier" : "CMDKLTD",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/listaMetaAtributos/code:642176673",
+    "value" : {
+      "IeTooltip" : false,
+      "alinharDireita" : false,
+      "canClean" : true,
+      "code" : 642176673,
+      "componente" : "LISTBOX",
+      "dependentFields" : [ ],
+      "displayButtonToday" : false,
+      "displayCurrentTime" : true,
+      "displayWeekday" : false,
+      "domainCode" : 17689,
+      "editableDescription" : false,
+      "enabled" : true,
+      "filterComponentType" : "WDBLCB",
+      "ieInfoPatient" : false,
+      "ieSalvar" : true,
+      "ieTipoAction" : "N",
+      "ieVisible" : true,
+      "initialFocus" : false,
+      "label" : "Domain exp.",
+      "labelExpressionCode" : 349576,
+      "largura" : 6,
+      "leftAnchored" : false,
+      "lineBreak" : false,
+      "mandatory" : false,
+      "multiselect" : "N",
+      "nmAtributo" : "CD_CUSTOM_DOMAIN_2",
+      "readOnly" : false,
+      "sensitive" : false,
+      "tabStop" : true,
+      "tipoAtributo" : "VARCHAR2",
+      "tooltip" : "Domain exp.",
+      "tooltipExpressionCode" : 349576,
+      "useCheckboxCluster" : false
+    }
+  } ],
+  "type" : "PARTNER"
+}
