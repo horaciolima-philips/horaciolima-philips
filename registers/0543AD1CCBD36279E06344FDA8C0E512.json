@@ -1,0 +1,104 @@
+{ "changes" : [{
+"event_info":{
+"sequence":"72530",
+"guid":"0543AD1CCBD16279E06344FDA8C0E512",
+"tag_name":"CMDK",
+"date":"13\/09\/2023 16:59:26",
+"table_name":"MW_TABLES",
+"dml_operation":"INSERT",
+"tasy_user":"dgviero",
+"date_format":"dd\/mm\/rrrr hh24:mi:ss" 
+}
+,
+"session_info":{
+"tasy_user":"dgviero",
+"os_user":"tomcat",
+"machine":"srv-tomcat.whebdc.com.br" 
+}
+,
+"server_info":{
+"instance_name":"phcdb7",
+"database_version":"19.0",
+"charset":"AMERICAN_AMERICA.WE8MSWIN1252" 
+}
+,
+"primary_key_values":[
+{"column_name":"NR_SEQUENCIA",
+"data_type":"NUMBER",
+"old_value":null,
+"new_value":"7" 
+}
+],
+"column_values":[
+{"column_name":"NR_SEQUENCIA",
+"data_type":"NUMBER",
+"old_value":null,
+"new_value":"7" 
+},
+{"column_name":"NM_TABELA",
+"data_type":"VARCHAR2",
+"old_value":null,
+"new_value":"CMDK_USERS" 
+},
+{"column_name":"DT_ATUALIZACAO",
+"data_type":"DATE",
+"old_value":null,
+"new_value":"13\/09\/2023 16:59:26" 
+},
+{"column_name":"NM_USUARIO",
+"data_type":"VARCHAR2",
+"old_value":null,
+"new_value":"dgviero" 
+},
+{"column_name":"DT_ATUALIZACAO_NREC",
+"data_type":"DATE",
+"old_value":null,
+"new_value":"13\/09\/2023 16:59:26" 
+},
+{"column_name":"NM_USUARIO_NREC",
+"data_type":"VARCHAR2",
+"old_value":null,
+"new_value":"dgviero" 
+}
+]
+}
+,{
+"event_info":{
+"sequence":"72531",
+"guid":"0543AD1CCBD26279E06344FDA8C0E512",
+"tag_name":"CMDK",
+"date":"13\/09\/2023 16:59:51",
+"table_name":"CMDK_USERS",
+"dml_operation":"UPDATE",
+"tasy_user":"dgviero",
+"date_format":"dd\/mm\/rrrr hh24:mi:ss" 
+}
+,
+"session_info":{
+"tasy_user":"dgviero",
+"os_user":"tomcat",
+"machine":"srv-tomcat.whebdc.com.br" 
+}
+,
+"server_info":{
+"instance_name":"phcdb7",
+"database_version":"19.0",
+"charset":"AMERICAN_AMERICA.WE8MSWIN1252" 
+}
+,
+"primary_key_values":[
+{"column_name":"NR_SEQUENCIA",
+"data_type":"NUMBER",
+"old_value":"51",
+"new_value":"51" 
+}
+],
+"column_values":[
+{"column_name":"DT_ATUALIZACAO",
+"data_type":"DATE",
+"old_value":"13\/09\/2023 16:56:06",
+"new_value":"13\/09\/2023 16:59:51" 
+}
+]
+}
+]}

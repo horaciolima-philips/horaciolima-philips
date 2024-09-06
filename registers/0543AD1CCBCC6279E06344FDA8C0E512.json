@@ -1,0 +1,70 @@
+{ "changes" : [{
+"event_info":{
+"sequence":"72526",
+"guid":"0543316156B6FA77E06344FDA8C0B96E",
+"tag_name":"CMDK",
+"date":"13\/09\/2023 16:51:42",
+"table_name":"DIC_EXPRESSAO",
+"dml_operation":"INSERT",
+"tasy_user":null,
+"date_format":"dd\/mm\/rrrr hh24:mi:ss" 
+}
+,
+"session_info":{
+"tasy_user":null,
+"os_user":"320202833",
+"machine":"YY278687" 
+}
+,
+"server_info":{
+"instance_name":"phcdb7",
+"database_version":"19.0",
+"charset":"AMERICAN_AMERICA.WE8MSWIN1252" 
+}
+,
+"primary_key_values":[
+{"column_name":"CD_EXPRESSAO",
+"data_type":"NUMBER",
+"old_value":null,
+"new_value":"123757747" 
+}
+],
+"column_values":[
+{"column_name":"CD_EXPRESSAO",
+"data_type":"NUMBER",
+"old_value":null,
+"new_value":"123757747" 
+},
+{"column_name":"DS_EXPRESSAO_BR",
+"data_type":"VARCHAR2",
+"old_value":null,
+"new_value":"Teste" 
+},
+{"column_name":"NM_USUARIO",
+"data_type":"VARCHAR2",
+"old_value":null,
+"new_value":"dgviero" 
+},
+{"column_name":"DT_ATUALIZACAO",
+"data_type":"DATE",
+"old_value":null,
+"new_value":"13\/09\/2023 16:51:07" 
+},
+{"column_name":"DS_GLOSSARIO",
+"data_type":"VARCHAR2",
+"old_value":null,
+"new_value":"Context not supplied." 
+},
+{"column_name":"NM_USUARIO_NREC",
+"data_type":"VARCHAR2",
+"old_value":null,
+"new_value":"dgviero" 
+},
+{"column_name":"DT_ATUALIZACAO_NREC",
+"data_type":"DATE",
+"old_value":null,
+"new_value":"13\/09\/2023 16:51:20" 
+}
+]
+}
+]}

@@ -1,0 +1,109 @@
+{
+    "featureCode": 99663,
+    "code": 99663,
+    "parentObjectCode": 0,
+    "description": "Schematic 42",
+    "metadataFile": false,
+    "objectType": "SCHEMATIC",
+    "componentType": "WSCH",
+    "children": [
+        {
+            "code": 635456517,
+            "parentObjectCode": 99663,
+            "description": "Panel",
+            "metadataFile": false,
+            "objectType": "PANEL",
+            "children": [
+                {
+                    "code": 635461732,
+                    "parentObjectCode": 635456517,
+                    "description": "Master region",
+                    "metadataFile": false,
+                    "objectType": "MASTER_REGION",
+                    "masterRegionType": "LAYOUT_A",
+                    "children": [
+                        {
+                            "code": 635461733,
+                            "parentObjectCode": 635461732,
+                            "description": "Region 0",
+                            "metadataFile": false,
+                            "objectType": "REGION",
+                            "displayOrder": 1,
+                            "children": [
+                                {
+                                    "code": 635467754,
+                                    "parentObjectCode": 635461733,
+                                    "description": "DbPanel",
+                                    "metadataFile": true,
+                                    "objectType": "COMPONENT",
+                                    "displayOrder": 1,
+                                    "componentType": "WDBPANEL",
+                                    "children": [],
+                                    "properties": {
+                                        "action": "",
+                                        "pageSize": 0,
+                                        "multiSelection": false,
+                                        "autoCreateChild": false,
+                                        "selectFirstRow": false,
+                                        "reportConfigVisible": false,
+                                        "usePagination": true,
+                                        "useNewGrid": true,
+                                        "checkReportRelease": true,
+                                        "emptyActivation": false,
+                                        "editableGrid": false,
+                                        "paginationType": "P",
+                                        "qtMaxRecord": 0,
+                                        "gridWhenSave": true,
+                                        "responsive": false,
+                                        "activateOnDetail": false,
+                                        "readOnlyType": "N",
+                                        "confirmReleaseRecord": false,
+                                        "lazyLoadDetail": false,
+                                        "destroyDetail": false,
+                                        "cacheDetailViews": false,
+                                        "readOnly": false,
+                                        "unificarCountRegistros": true,
+                                        "saveGridColumnOrder": false,
+                                        "onlyDetail": false
+                                    },
+                                    "customProperties": {
+                                        "allowBatchSignature": "N",
+                                        "showDynamicReport": "N",
+                                        "withoutCache": "N"
+                                    },
+                                    "reports": [],
+                                    "params": [],
+                                    "legends": [],
+                                    "crudRules": [],
+                                    "masterObjectCode": 0,
+                                    "checkParentsRelease": false,
+                                    "viewCodeInter": 635472641,
+                                    "viewCode": 635472641,
+                                    "isMaster": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "displayOrder": 1,
+            "expressionCode": 314879,
+            "expressionDescription": "Panel",
+            "panelWidth": 12
+        }
+    ],
+    "dialogs": [],
+    "globalPopups": [],
+    "metadataToFile": true,
+    "noData": "No information",
+    "noDataExpressionCode": 397569,
+    "featureParameters": {},
+    "avoidMemoryLeaks": true,
+    "useExperimentalLogger": false,
+    "useExperimentalHttp": false,
+    "disableDeveloperBar": false,
+    "externalAccessItens": {
+        "SPOTLIGHT_FEATURES": [],
+        "ALL_FEATURES": []
+    }
+}
