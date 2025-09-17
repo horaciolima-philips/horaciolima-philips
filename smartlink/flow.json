@@ -383,7 +383,7 @@
         "id": "3f21df529cec25db",
         "type": "DBPanel Interceptor",
         "z": "02d8da1b2db80f5f",
-        "tableName": "AUTORIZACAO_CONVENIO_PARA_TESTE_MUITO_IMPORTANTE_2_DOT_0",
+        "tableName": "",
         "name": "",
         "url": "",
         "view": "100602",
