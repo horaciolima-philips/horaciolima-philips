@@ -384,7 +384,7 @@
         "type": "DBPanel Interceptor",
         "z": "02d8da1b2db80f5f",
         "tableName": "",
-        "name": "",
+        "name": "BlankTableNameInterceptor",
         "url": "",
         "view": "100602",
         "method": "post",
