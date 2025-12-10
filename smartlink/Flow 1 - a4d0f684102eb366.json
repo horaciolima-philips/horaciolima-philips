@@ -1,0 +1,21 @@
+[
+  {
+    "id": "a4d0f684102eb366",
+    "type": "tab",
+    "label": "Flow 1",
+    "disabled": false,
+    "info": "",
+    "env": [],
+    "extensionId": "89d565a8-4dbf-43b0-8f36-1cbbacaedb07"
+  },
+  {
+    "id": "4fd9a72eb885049d",
+    "type": "comment",
+    "z": "a4d0f684102eb366",
+    "name": "",
+    "info": "",
+    "x": 200,
+    "y": 740,
+    "wires": []
+  }
+]
