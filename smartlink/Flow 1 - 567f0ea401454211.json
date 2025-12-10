@@ -9,6 +9,16 @@
     "extensionId": "89d565a8-4dbf-43b0-8f36-1cbbacaedb07"
   },
   {
+    "id": "567f0ea401454211",
+    "type": "tab",
+    "label": "teste",
+    "disabled": false,
+    "info": "",
+    "env": [],
+    "dbPanelCode": "",
+    "extensionId": "89d565a8-4dbf-43b0-8f36-1cbbacaedb07"
+  },
+  {
     "id": "1e795f6c7ef6ac7e",
     "type": "comment",
     "z": "567f0ea401454211",
@@ -16,6 +26,26 @@
     "info": "",
     "x": 1220,
     "y": 100,
+    "wires": []
+  },
+  {
+    "id": "1e795f6c7ef6ac7e",
+    "type": "comment",
+    "z": "567f0ea401454211",
+    "name": "",
+    "info": "",
+    "x": 1220,
+    "y": 100,
+    "wires": []
+  },
+  {
+    "id": "b138f5b8ec1eddd2",
+    "type": "comment",
+    "z": "567f0ea401454211",
+    "name": "",
+    "info": "",
+    "x": 1260,
+    "y": 280,
     "wires": []
   }
 ]

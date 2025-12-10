@@ -1,0 +1,22 @@
+[
+  {
+    "id": "94ebad81f0dd87e2",
+    "type": "tab",
+    "label": "Teste git",
+    "disabled": false,
+    "info": "",
+    "env": [],
+    "dbPanelCode": "",
+    "extensionId": "988490d2-35b4-4ab3-a92d-a06359729e76"
+  },
+  {
+    "id": "061c4189830b4e71",
+    "type": "comment",
+    "z": "94ebad81f0dd87e2",
+    "name": "",
+    "info": "",
+    "x": 720,
+    "y": 720,
+    "wires": []
+  }
+]
