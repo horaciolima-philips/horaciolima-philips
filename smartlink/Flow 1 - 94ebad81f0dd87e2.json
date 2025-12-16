@@ -9,6 +9,16 @@
     "extensionId": "89d565a8-4dbf-43b0-8f36-1cbbacaedb07"
   },
   {
+    "id": "94ebad81f0dd87e2",
+    "type": "tab",
+    "label": "Teste git",
+    "disabled": false,
+    "info": "",
+    "env": [],
+    "dbPanelCode": "",
+    "extensionId": "988490d2-35b4-4ab3-a92d-a06359729e76"
+  },
+  {
     "id": "061c4189830b4e71",
     "type": "comment",
     "z": "94ebad81f0dd87e2",
@@ -16,6 +26,16 @@
     "info": "",
     "x": 800,
     "y": 160,
+    "wires": []
+  },
+  {
+    "id": "061c4189830b4e71",
+    "type": "comment",
+    "z": "94ebad81f0dd87e2",
+    "name": "",
+    "info": "",
+    "x": 120,
+    "y": 500,
     "wires": []
   }
 ]
