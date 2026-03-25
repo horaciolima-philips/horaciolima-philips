@@ -1,0 +1,32 @@
+[
+  {
+    "id": "567f0ea401454211",
+    "type": "tab",
+    "label": "teste",
+    "disabled": false,
+    "info": "",
+    "env": [],
+    "dbPanelCode": "",
+    "extensionId": "988490d2-35b4-4ab3-a92d-a06359729e76"
+  },
+  {
+    "id": "1e795f6c7ef6ac7e",
+    "type": "comment",
+    "z": "567f0ea401454211",
+    "name": "",
+    "info": "",
+    "x": 1220,
+    "y": 100,
+    "wires": []
+  },
+  {
+    "id": "b138f5b8ec1eddd2",
+    "type": "comment",
+    "z": "567f0ea401454211",
+    "name": "",
+    "info": "",
+    "x": 1260,
+    "y": 280,
+    "wires": []
+  }
+]
