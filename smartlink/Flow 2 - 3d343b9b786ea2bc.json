@@ -1,17 +1,33 @@
 [
   {
-    "id": "286339f6da68f587",
+    "id": "3d343b9b786ea2bc",
     "type": "tab",
-    "label": "Flow 1",
+    "label": "Flow 2",
     "disabled": false,
     "info": "",
     "env": [],
     "extensionId": "89d565a8-4dbf-43b0-8f36-1cbbacaedb07"
   },
   {
-    "id": "90b43c0bd482363f",
+    "id": "64dce9040f964984",
+    "type": "debug",
+    "z": "3d343b9b786ea2bc",
+    "name": "debug 2",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "false",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 280,
+    "y": 440,
+    "wires": []
+  },
+  {
+    "id": "92e66b0a2b43d523",
     "type": "inject",
-    "z": "286339f6da68f587",
+    "z": "3d343b9b786ea2bc",
     "name": "",
     "props": [
       {
@@ -29,28 +45,12 @@
     "topic": "",
     "payload": "",
     "payloadType": "date",
-    "x": 460,
-    "y": 180,
+    "x": 280,
+    "y": 380,
     "wires": [
       [
-        "e5f000688ca968a9"
+        "64dce9040f964984"
       ]
     ]
-  },
-  {
-    "id": "e5f000688ca968a9",
-    "type": "debug",
-    "z": "286339f6da68f587",
-    "name": "debug 1",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "false",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 540,
-    "y": 400,
-    "wires": []
   }
 ]
