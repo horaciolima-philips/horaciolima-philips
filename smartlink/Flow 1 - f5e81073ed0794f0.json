@@ -1,0 +1,177 @@
+[
+  {
+    "id": "f5e81073ed0794f0",
+    "type": "tab",
+    "label": "Flow 1",
+    "disabled": false,
+    "info": "",
+    "env": [],
+    "extensionId": "988490d2-35b4-4ab3-a92d-a06359729e76"
+  },
+  {
+    "id": "e1a411dc89c9dc38",
+    "type": "inject",
+    "z": "f5e81073ed0794f0",
+    "name": "",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 380,
+    "y": 180,
+    "wires": [
+      [
+        "bc71534a83107ab9"
+      ]
+    ]
+  },
+  {
+    "id": "bc71534a83107ab9",
+    "type": "debug",
+    "z": "f5e81073ed0794f0",
+    "name": "debug 1",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "false",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1440,
+    "y": 440,
+    "wires": []
+  },
+  {
+    "id": "c275b00093383d86",
+    "type": "inbound",
+    "z": "f5e81073ed0794f0",
+    "name": "inbound-dev-test",
+    "conntype": "HTTP",
+    "idIntegration": "988490d2-35b4-4ab3-a92d-a06359729e76-inbound-dev-test",
+    "transformation": "JSON > JSON",
+    "url": "inbound-dev-test",
+    "urlInternal": "/988490d2-35b4-4ab3-a92d-a06359729e76/inbound-dev-test",
+    "method": "GET",
+    "secure": false,
+    "port": 8080,
+    "timeout": 30000,
+    "consumers": 10,
+    "unitZSegmentArrayAsObject": false,
+    "singleZSegmentsAsObject": false,
+    "useParentNameForUnknownInZSegment": false,
+    "autoAck": false,
+    "responseAck": "",
+    "x": 360,
+    "y": 480,
+    "wires": [
+      [
+        "fa28fa188ef0075d",
+        "4934fdb711710d2e"
+      ]
+    ]
+  },
+  {
+    "id": "fa28fa188ef0075d",
+    "type": "http response",
+    "z": "f5e81073ed0794f0",
+    "name": "",
+    "statusCode": "",
+    "headers": {},
+    "x": 730,
+    "y": 660,
+    "wires": []
+  },
+  {
+    "id": "22e916bc85ae6087",
+    "type": "debug",
+    "z": "f5e81073ed0794f0",
+    "name": "debug 2",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "false",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 880,
+    "y": 440,
+    "wires": []
+  },
+  {
+    "id": "4934fdb711710d2e",
+    "type": "http-api-catalog",
+    "z": "f5e81073ed0794f0",
+    "name": "Return natural person by ID",
+    "method": "GET",
+    "apiCategory": "OpenAPI",
+    "endpoint": "/api/natural-person/{naturalPersonCode}",
+    "urlParams": [
+      {
+        "name": "naturalPersonCode",
+        "value": "66661",
+        "type": "str",
+        "autoDetected": true
+      }
+    ],
+    "ret": "obj",
+    "headers": [],
+    "x": 660,
+    "y": 480,
+    "wires": [
+      [
+        "22e916bc85ae6087"
+      ]
+    ]
+  },
+  {
+    "id": "b2fe15547bec22b9",
+    "type": "inbound",
+    "z": "f5e81073ed0794f0",
+    "name": "inbound-dev-test-2",
+    "conntype": "HTTP",
+    "idIntegration": "988490d2-35b4-4ab3-a92d-a06359729e76-inbound-dev-test-2",
+    "transformation": "",
+    "url": "inbound-dev-test-2",
+    "urlInternal": "/988490d2-35b4-4ab3-a92d-a06359729e76/inbound-dev-test-2",
+    "method": "GET",
+    "secure": false,
+    "port": 8080,
+    "timeout": 30000,
+    "consumers": 10,
+    "unitZSegmentArrayAsObject": false,
+    "singleZSegmentsAsObject": false,
+    "useParentNameForUnknownInZSegment": false,
+    "autoAck": false,
+    "responseAck": "",
+    "x": 350,
+    "y": 820,
+    "wires": [
+      [
+        "b89013836d87c90b"
+      ]
+    ]
+  },
+  {
+    "id": "b89013836d87c90b",
+    "type": "http response",
+    "z": "f5e81073ed0794f0",
+    "name": "",
+    "statusCode": "",
+    "headers": {},
+    "x": 760,
+    "y": 920,
+    "wires": []
+  }
+]
